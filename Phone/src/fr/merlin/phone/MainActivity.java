@@ -32,7 +32,7 @@ public class MainActivity extends Activity implements OnClickListener{
     private static final String DNAME = ContactsContract.CommonDataKinds.Phone.DISPLAY_NAME;
     private static final String PNUM = ContactsContract.CommonDataKinds.Phone.NUMBER;
     private static final String PHONETYPE = ContactsContract.CommonDataKinds.Phone.TYPE;
-    private static final int MAX_NUMBER_ENTRIES = 5;
+    private static final int MAX_NUMBER_ENTRIES = 10;
 
     private String phList;
     
