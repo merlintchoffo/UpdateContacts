@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="25.0sp" android:layout_alignParentTop="true">
+        <Button android:gravity="start" android:id="@id/showProgress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/show_dialog" android:layout_weight="1.0" />
+        <Button android:layout_gravity="end" android:id="@id/btnCancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" android:layout_weight="1.0" />
+    </LinearLayout>
+    <TextView android:textStyle="bold" android:id="@id/msgTextView01" android:padding="5.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hello" />
+    <ListView android:id="@id/listview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="70.0sp" />
+</RelativeLayout>

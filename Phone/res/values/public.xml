@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="drawable" name="ic_launcher" id="0x7f020000" />
+    <public type="layout" name="activity_alert_dialog" id="0x7f030000" />
+    <public type="layout" name="activity_main" id="0x7f030001" />
+    <public type="layout" name="activity_update_contacts" id="0x7f030002" />
+    <public type="layout" name="list" id="0x7f030003" />
+    <public type="layout" name="tmp" id="0x7f030004" />
+    <public type="string" name="app_name" id="0x7f040000" />
+    <public type="string" name="hello_world" id="0x7f040001" />
+    <public type="string" name="hello" id="0x7f040002" />
+    <public type="string" name="exitUpdateContacts" id="0x7f040003" />
+    <public type="string" name="show_dialog" id="0x7f040004" />
+    <public type="string" name="cancel" id="0x7f040005" />
+    <public type="string" name="listview" id="0x7f040006" />
+    <public type="string" name="title_activity_update_contacts" id="0x7f040007" />
+    <public type="string" name="title_activity_alert_dialog" id="0x7f040008" />
+    <public type="style" name="AppBaseTheme" id="0x7f050000" />
+    <public type="style" name="AppTheme" id="0x7f050001" />
+    <public type="id" name="btn" id="0x7f060000" />
+    <public type="id" name="showProgress" id="0x7f060001" />
+    <public type="id" name="btnCancel" id="0x7f060002" />
+    <public type="id" name="msgTextView01" id="0x7f060003" />
+    <public type="id" name="listview" id="0x7f060004" />
+    <public type="id" name="ScrollView01" id="0x7f060005" />
+    <public type="id" name="defTextView01" id="0x7f060006" />
+    <public type="id" name="progress_bar" id="0x7f060007" />
+    <public type="id" name="btnfinish" id="0x7f060008" />
+    <public type="id" name="showMapView" id="0x7f060009" />
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="btn">false</item>
+    <item type="id" name="showProgress">false</item>
+    <item type="id" name="btnCancel">false</item>
+    <item type="id" name="msgTextView01">false</item>
+    <item type="id" name="listview">false</item>
+    <item type="id" name="ScrollView01">false</item>
+    <item type="id" name="defTextView01">false</item>
+    <item type="id" name="progress_bar">false</item>
+    <item type="id" name="btnfinish">false</item>
+    <item type="id" name="showMapView">false</item>
+</resources>

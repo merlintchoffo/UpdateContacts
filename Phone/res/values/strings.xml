@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Phone</string>
+    <string name="hello_world">"Démarrage de la mise à jour des numéros dont l'indicatif est 237"</string>
+    <string name="hello">Liste des contacts trouvés:</string>
+    <string name="exitUpdateContacts">Quitter</string>
+    <string name="show_dialog">Confirmer</string>
+    <string name="cancel">Annuler</string>
+    <string name="listview">maListe</string>
+    <string name="title_activity_update_contacts">UpdateContacts</string>
+    <string name="title_activity_alert_dialog">UpdateContacts</string>
+</resources>
