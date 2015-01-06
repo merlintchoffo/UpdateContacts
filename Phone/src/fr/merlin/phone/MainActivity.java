@@ -197,6 +197,8 @@ public class MainActivity extends Activity implements OnClickListener{
 				if (ph[phcounter].equals(phoneNumber)){
 					phType[phcounter]  = pCur.getString(pCur.getColumnIndex(PHONETYPE));
 					phList = phList + ":" + phType[phcounter]  + "\n";
+					pCur.close();
+					return phList;
 					}
 					else 
 					phcounter ++; 
@@ -224,7 +226,7 @@ public class MainActivity extends Activity implements OnClickListener{
 				break;
 			
 			case R.id.btnCancel:
-				Toast.makeText(MainActivity.this, "Start", Toast.LENGTH_SHORT).show();
+				Toast.makeText(MainActivity.this, "End", Toast.LENGTH_SHORT).show();
 				finish();
 				break;
 				

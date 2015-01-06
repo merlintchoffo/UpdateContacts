@@ -18,7 +18,6 @@ import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
-import fr.merlin.phone.AckRequest.RequestListen;
 
 public class UpdateContacts extends Activity implements RequestListen {
 
@@ -140,7 +139,8 @@ public class UpdateContacts extends Activity implements RequestListen {
 				String phoneType = infoContacts.get(i).split(":")[2].trim();
 
 				// Append list of contacts to the StringBuilder object
-				stringBuilder.append("\n"+name+" "+phoneNumber+" "+phoneType);
+				int order = i+1;
+				stringBuilder.append("\n"+order+"- "+name+" "+phoneNumber+"- "+phoneType);
 
 				//				showContactList(i);
 				String[] splitString = (phoneNumber_m.split("237"));
